@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+    background: rgb(2, 83, 124);
+}
+.wrapper {
+    
+    flex-direction: row;
+    
+}
+#canvas{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.55);
+    border:  3px solid rgb(1, 125, 248);
+}
+.counter {
+    margin-left: 4px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    font-family: sans-serif;
+    background: rgb(0, 0, 0);
+}
+.counter p{
+    display: flex; 
+    margin-left: 30px;
+}
+.counter p:last-child{
+    margin-left: 60px;
+}
